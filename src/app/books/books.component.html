@@ -1,0 +1,9 @@
+<h2>Programming Books List!</h2>
+
+
+<ul *ngIf="isShowing">
+    <ng-container *ngFor="let singleBook of books; let  i = index">
+        <app-book (bookEmitter)="addToCart($event)" [book]="singleBook"></app-book>
+    </ng-container>
+</ul>
+

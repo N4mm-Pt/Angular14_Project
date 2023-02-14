@@ -22,7 +22,7 @@ export class BooksService {
       {
         name  : ' The Art of Computer Programming',
         author :'Donald E.Knuth',
-        image :  'https://m.media-amazon.com/images/I/51IA4hT6jrL._SX218_BO1,204,203,200_QL40_FMwebp_.jpg',
+        image :  'https://salt.tikicdn.com/cache/750x750/ts/product/7c/e4/e7/a6a1cbf4ff2c942f7e326564ad5b4fe5.jpg.webp',
         amount: 900
       },
       {

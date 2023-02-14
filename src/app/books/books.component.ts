@@ -11,16 +11,14 @@ export class BooksComponent {
   books : Book[] = [];
   constructor(private bookService : BooksService){
   }
-  cart : Book[] = [];
+  
    
   isShowing: boolean = true;
   
   ngOnInit(): void{
     this.books = this.bookService.getBooks();
   }
-  addToCart(book : Book){
-    console.log(book);
-  }
+ 
   
   
 }
